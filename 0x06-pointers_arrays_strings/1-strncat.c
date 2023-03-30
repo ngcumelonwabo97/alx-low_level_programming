@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates two strings
- * @dest: string to be appended unto
- * @src: string to be appended
+ * _strncat - concatenate two strings
+ * @dest: input value
+ * @src: input value
+ * @n: input value
  *
  * Return: a pointer to the resulting string dest
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 	int j;
@@ -20,7 +21,7 @@ char *_strcat(char *dest, char *src)
 
 	j = 0;
 
-	while (j < n && src[j] != '\0')
+	while (i < n && src[j] != '\0')
 	{
 		dest[i] = src[j];
 		i++;
