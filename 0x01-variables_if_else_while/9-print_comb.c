@@ -7,6 +7,8 @@
  * (every other function (printf, puts, etc…) is forbidden)
  * You can only use putchar four times maximum in your code
  * You are not allowed to use any variable of type char
+ *
+ * Return: 0 success
  */
 
 int main(void)
