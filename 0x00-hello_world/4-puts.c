@@ -1,12 +1,14 @@
-#include<stdio.h>
-
+#include <stdio.h>
 /**
- * Main - Entry point
+ * main - a C program that prints exactly
+ * Programming is like building a multilingual puzzle,
+ * followed by a new line.
  *
- * Return: Always 0
+ * Return: 0 success
  */
+
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle");
+	/* code goes in here */
 	return (0);
 }
