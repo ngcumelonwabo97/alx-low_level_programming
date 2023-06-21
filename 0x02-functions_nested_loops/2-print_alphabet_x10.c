@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * void print_alphabet_x10(void) - a function that prints 10 times the alphabet,
  * in lowercase, followed by a new line.
@@ -16,7 +16,7 @@ void print_alphabet_x10(void)
 	{
 		for (c = 'a'; c <= 'z'; c++)
 		{
-			putchar(c);
+			_putchar(c);
 		}
 		putchar('\n');
 	}
