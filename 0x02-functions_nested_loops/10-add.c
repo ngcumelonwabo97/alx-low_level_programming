@@ -1,9 +1,11 @@
 #include <stdio.h>
 /**
- * int add(int, int) -  a function that adds two integers
+ * add - a function that adds two integers
  * and returns the result.
+ * @a: input variable
+ * @b: input variable
  *
- * Return: integer variable
+ * Return: the result (c)
  */
 
 int add(int a, int b)
