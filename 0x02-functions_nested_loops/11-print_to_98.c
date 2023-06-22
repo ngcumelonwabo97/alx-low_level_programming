@@ -1,8 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * void print_to_98(int n) -  a function that prints all natural numbers from n to 98,
+ * print_to_98 - a function that prints all natural numbers from n to 98,
  * followed by a new line.
+ * @n: input variable
  * Numbers must be separated by a comma, followed by a space
  * Numbers should be printed in order
  * The first printed number should be the number passed to your function
