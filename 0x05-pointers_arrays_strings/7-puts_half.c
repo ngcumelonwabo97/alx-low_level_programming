@@ -13,6 +13,9 @@ void puts_half(char *str)
 
 	while (str[full_string] != '\0')
 		full_sting++;
+
+	half_string = full_string / 2;
+
 	if (full_string % 2 == 1)
 		half_string++;
 
